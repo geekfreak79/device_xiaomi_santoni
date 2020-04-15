@@ -163,8 +163,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.msm8937 \
-    Snap
+    camera.msm8937
 
 PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
@@ -530,3 +529,7 @@ PRODUCT_PACKAGES += \
 #XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# GCam Go
+PRODUCT_PACKAGES += \
+    GCam
