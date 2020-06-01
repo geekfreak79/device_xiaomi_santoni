@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Device Tree for Xiaomi Redmi 4X (santoni)
 
 ## Spec Sheet
@@ -21,3 +22,8 @@
 ## Device Picture
 
 ![Redmi 4X](https://cdn.tgdd.vn/Products/Images/42/99145/xiaomi-redmi-4x-400-400x460.png "Redmi 4X")
+=======
+# device_xiaomi_santoni
+Device tree for pixys os
+>>>>>>> 6547868e2b10e2e4007a4f4d6774fbffdd77ddec
+# device_xiaomi_santoni
