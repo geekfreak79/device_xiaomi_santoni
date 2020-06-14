@@ -1,0 +1,13 @@
+[
+  {
+    "remote": "github",
+    "repository": "Stargazer19/vendor_xiaomi_santoni",
+    "target_path": "vendor/xiaomi",
+    "branch": "ten"
+  },
+  {
+    "remote": "github",
+    "repository": "Stargazer19/kernel_xiaomi_santoni",
+    "target_path": "kernel/xiaomi/msm8937",
+    "branch": "ten-caf"
+  }
