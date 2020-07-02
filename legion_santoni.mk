@@ -16,7 +16,7 @@
 
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
-# Inherit some common Havoc-OS stuff.
+# Inherit some common Legion-OS stuff.
 $(call inherit-product, vendor/legion/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := santoni
@@ -27,7 +27,11 @@ BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Official
-export export HAVOC_BUILD_TYPE=Official
+LEGION_BUILD_TYPE=Official
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=AHOY
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
